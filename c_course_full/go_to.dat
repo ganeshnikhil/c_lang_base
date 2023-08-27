@@ -1,0 +1,7 @@
+#Goto statements 
+[*] Also called jumpt statements in c
+[*] used to transfer program to a predefined label
+[*] its use to avoided sicne it causes confusion for the fellow programmers in understanding the code.
+[*] got statement is preferable when we need to break multiple loops using single statement at the same time.
+[*] lets go to ide and understand more.
+   

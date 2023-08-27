@@ -1,0 +1,12 @@
+#Break statement.
+[*] used to bring the program control out of the loop
+[*] The break statement is used inside loops or switch staement.
+[*] Break statement can be used with 
+ [*] loops
+ [*] switch case statements
+
+
+#continue statement
+[*] used to bring the program control to the next iteration of the loop
+[*] the continue statements skips some code inside the loop and continues with the next iteration
+[*] it is mainly used for a condition so that we can skip some lines of code for a particular.

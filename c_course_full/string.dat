@@ -1,0 +1,20 @@
+# Is string a datatype in c?
+  [*] No
+  [*] we have char,int,float and other data types but no 'string' data type in c
+  [*] string is not a supported data type in C but it is a very useful concept used 
+      to model real world entities like name , city etc.
+  [*] We express strings using an array of characters terminated by a null character('\0')
+
+[h  a  r  s  h \0]
+ 0  1  2  3  4  5
+char name[];
+
+[*] string: array of characters terminated by NULL character 
+[*] strings in c is created by creating an array of characters 
+[*] we need extra character ('\0' or null character) to tell the compiler that the stirng ends here.
+
+# we can create a character array in the following ways:
+ [*] char name[]='nikhil';
+ [*] char name[]={'n','i','k','h','i','l'}
+
+

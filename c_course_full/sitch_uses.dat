@@ -1,0 +1,28 @@
+#syntax of switch 
+
+
+[*] int a=2;
+[*] switch(a){
+   case 1:
+   
+      printf("value is 2);
+      break;
+   
+   case 2:     
+      printf("value is 3);
+      break;
+   
+   case 3:
+      printf("value is 4");
+      break;
+   
+   defalut:
+      printf("Nothing matched);
+}
+
+#Rules for switch statements.
+
+[*] switch expression --> must be int or char
+[*] case value must be an integer or a character
+[*] case must come inside a switch 
+[*] break is not a must

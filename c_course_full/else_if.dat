@@ -1,0 +1,43 @@
+#C if else statements ?  --> control statements 
+[*] It is used to perform operation based on some condition types of if statements 
+   #Types of if staements 
+    [*] if statements 
+    [*] if else statements
+    [*] if - else if ladder
+    [*] nested if 
+[*] syntax for if else:
+if (3>2){
+   printf("This will excute);
+}
+
+#flow chart for if statement 
+         conditon [diamond shape box]----> else code
+                |                              |
+              [if code]                        |
+                |                              |
+            [code after]  <---------------------
+
+
+#if-else statement
+if (condition){
+   //excute this part;
+}
+else{
+   //excute this part;
+}
+//code after 
+
+#if - else if - else ladder
+if(conditon1){
+   //excute this part;
+}
+elseif(contion2){
+   //excute this part;
+}
+elseif (conditon3){
+   //excute this part;
+}
+else{
+   //excute this part;
+}
+

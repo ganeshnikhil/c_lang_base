@@ -1,0 +1,4 @@
+# we pass array to function when we need to pass a list of values of given function 
+# we can pass the array to function 
+  [*] by declaring array as a parameter in the function 
+  [*] by declaring a pointer in the functo to hold the base address of the array

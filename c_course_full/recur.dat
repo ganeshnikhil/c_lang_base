@@ -1,0 +1,23 @@
+#Recusion in c
+#What is a Recusive function.
+[*] Recusersive fucntions or Recursion is a process when a function call a copy of itself to work on smaller problems
+[*] Any function which calls itself is called recusion function
+[*] This makes the life of programmer easy by dividing a given problem into easier
+[*] A termination condition is imposed on such functions to stop them executing copies of themselves
+[*] Any problem that can be solved recursively , can also be solved iteratively
+
+#why recusion ?
+[*] any problem that can be solved recusively , can also be solved itratively.
+[*] however , some problems are best suited to be solved using recusion .
+[*] for example , tower of hanoi,fibonacci series, factorial finding..etc 
+
+
+[*] recursion is good approach when it comes to problem solving 
+[*] however, programmer needs to evaluate the need and impact of using recursive/iterative approach
+   while solving a particular problem
+[*] In case of factorail calculation , reucursion saved a lot of lines of code .
+[*] However in case of Fibonacci series, recursion resulted in some extra unnecessary function calls
+    which was an extra overhead!
+[*] Running time for Fibonacci series grows exponentially with input in case of recurisve approach
+
+

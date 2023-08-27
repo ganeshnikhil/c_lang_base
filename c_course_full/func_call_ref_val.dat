@@ -1,0 +1,8 @@
+# ACTUAL AND FORMAL PARAMETERS
+ [*] when a function is called , the values (expressions) that are passed in the call are caleed the arguments of acutal parameters
+ [*] Formal parameters are local variables which are assingned value form the arguments when the function is called
+
+
+# In c programming language , we can call a function in two differnt ways , based on how we sepcify th arguments, and those two ways are:
+  [*] call by value 
+  [*] call by Reference

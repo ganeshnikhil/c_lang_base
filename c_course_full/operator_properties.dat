@@ -1,0 +1,90 @@
+# Installing Code Runner Extension For vs Code
+[*] allow to direct run c program in terminal 
+ #Features
+   [*] Run code file of current active Text Editor
+   [*]Run code file through context menu of file explorer
+   [*]Run selected code snippet in Text Editor
+   [*]Run code per Shebang
+   [*]Run code per filename glob
+   [*]Run custom command
+   [*]Stop code running
+   [*]View output in Output Window
+   [*]Set default language to run
+   [*]Select language to run
+   [*]Support REPL by running code in Integrated Terminal
+
+#What is an operator?
+[*] An Operator is a symbol uset to perform operations in given programming language.
+[*]Ex: "+","-","*","%","/","=","<",">","!","&&","||".. so on 
+#Arthmetic Operator 
+ [*] +   :Addition 
+ [*] -   :subtraction 
+ [*] *   :multiplication 
+ [*] /   :dvision 
+ [*] %   :modulus
+
+#Relational operator 
+ [*] == :is equal to 
+ [*] != :is not equal to 
+ [*] >  :Greater than
+ [*] <  :Less than
+ [*] >= :grater than or equal to 
+ [*] <= :less than or equal to 
+
+#Logical Operator 
+ [*] &&  :logical AND operatptor , if both the operands are non-zero,then the conditon is true.ex:(A && B)
+ [*] ||  :logical OR operator , if any of these operands is non-zero, then the condiotion is true,ex:(A || B)
+ [*] !   :logical NOT operator, it used to reverse the logical state of its operand . if conditon is true. the logical NOT operator will make it false ex:(A && B) is true
+
+#Bitwise operator
+      VALUES       AND       OR     XOR
+ [*] a      b     a & b    a | b   a^b 
+ [*] 0      0       0        0      0
+ [*] 0      1       0        1      1
+ [*] 1      1       1        1      0
+ [*] 1      0       0        1      1
+ [*] ~ is the binary operator ones's complement operator .
+ [*] << is the binary left shift operator.
+ [*] >> is the binary right shift operator .
+
+#Assignment operator 
+ [*] = :simple assignment operator. Assigns values from right side operands to left side operand
+ [*]EX: a=5
+ [*] += :ADD AND asignment operator .it adds the right operand from the left operand and assign the result to left operand
+ [*]EX: a+=1 now a is equal to 6
+ [*] -= :Subtract AND assignment operator.it subtracts the right operand from the left operand and assign the result to left operand
+ [*]EX: a-=1 now a is equal to 5
+ [*] *= :Multiply AND assignment operator.it multiplies the right operand from the left operand and assign the result to left operand
+ [*]EX: a*=2 now a is equal to 10
+ [*] /= :Divide AND assignment operator.it divides the left operand with the right operand and the result is aasign to the left operand 
+ [*]EX: a/=2 now a is equal to 2.5
+
+#Miscellaneous operator 
+ [*] sizeof()  returns the size of variable        sizeof(a) returns size on that architecture
+ [*] &         returns the address of a variable   &a
+ [*] *         pointer to variable                 a*
+ [*] ?:        conditional operators               if conditon is true ? then value X : otherwise value y
+
+
+
+#Operator precedence in C
+   Category         Operator                 Associativity
+[*]posfix         (),[],-,>,_,++,--            left to right
+[*]()– Parentheses
+[*][] – Brackets
+[*]-> – Arrow operator
+[*]. – Dot operator
+[*]!, ~, ++, -- – Logical negation, Bitwise NOT, Increment, Decrement
+[*]*, /, % – Multiplication, Division, Modulus
+[*]+, - – Addition, Subtraction
+[*]<<, >> – Left shift, Right shift
+[*]<, <=, >, >= – Relational operators
+[*]==, != – Equality operators
+[*]& – Bitwise AND
+[*]^ – Bitwise XOR
+[*]| – Bitwise OR
+[*]&& – Logical AND
+[*]|| – Logical OR
+[*]?: – Ternary operator
+[*]=, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, >>= – Assignment operators
+[*] , -comma

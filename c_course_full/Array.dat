@@ -1,0 +1,27 @@
+#what is an array?
+[*] An array is a collection of data items of the same type.
+[*] items are stored at contgious memory locations.
+[*] it can also store the collection of derived data types , such as pointers , structures , etc.
+[*] a one dimesional array is like a list
+[*] a two dimesional array is like a table.
+[*] the c language places no limits on the number of dimensions in an array.
+[*] some texts refer to one-dimensional arrays as vectors , two-dimensional arrays as matrices,
+    and use the genral term arrays when the number of arrays when the number of dimensions is unspecified or unimportant
+
+#why do we need array?
+[*] code that use arrays is sometimes more organized and readable.
+[*] if you were to store the  marks of 56 students , creating 56 variables will make program look 
+    cluttered and messy.
+[*] solution to this is array.
+[*] we can create arrays of integers and store teh consecutive marks corresponding to the roll number 
+    in the array.
+
+#Advantage of array?
+[*] it is used to repersent multiple data items of same type by using only single name.
+[*] Accessing an item in a given array is very fast
+[*] 2 Dimensional array makes it easy in mathemetical applications as it is used to repersent a matrix.
+
+#propeties of array.
+[*] data in an array is stored in contgious memory locations.
+[*] each element of an array is of same size 
+[*] any element of the array with given index can be accessed very quickly by using 

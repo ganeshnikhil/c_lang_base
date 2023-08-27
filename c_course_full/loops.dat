@@ -1,0 +1,94 @@
+#Advantages of loops in c
+[*] using loops makes easy in code reasuality 
+[*] index=0;
+    loop star:
+     printf(index);
+     inc.index // index=index+1
+     loop end:
+   until condition fails to satisfy 
+[*] Basic syntax            
+                             i<10
+    loops starts ---> check the condtition ---> {false} exit the loop
+                            |
+                            |
+                           {true}
+                        excute loop;
+                        i=i+1;
+
+#types of loop:
+[*] do while loop
+[*] while loop
+[*] for loop
+
+
+#Do while loops:
+[*] do{
+    //code to be excuted ;
+} while(contiton)
+
+
+[*] int i=0;
+    do{
+      i=i+1;
+      print("%d,i);
+    }while(i<10)
+
+#do while loop excute at least once.
+
+
+#while loop:
+[*] while(conditon){
+   //code to be excuted
+}
+
+[*] int i=0;
+    while(i<30){
+      printf("%d");
+      i=i+1;
+    }
+
+
+#for loops in c:
+
+
+#why use for loop?
+[*]the for loop is used to statements or a part of program several times.
+[*] it is used to traverse the data structures like the arrays and linked list.
+[*] it has a little different syntax than while and do while loops.
+
+
+# the syntax of for loop in c language is given below:
+  for(expression 1: expression 2: expression 2){
+     //code to be run
+  }
+
+
+#properties of expression:
+[*] the expression repersents the intialization of the loop variable.
+[*] we can intalize more than one variable in Expression 1.
+[*] Expression 1 is optional.
+
+
+#properties of expression 1
+[*] the expression respersents the intialization of the loop variable.
+[*] we can intalize more than one variable in Expression 1:
+[*] Expression 1 is optional.
+
+#propeties of expression 2:
+[*] it is a conditional expression . it checks for a specific conditon to be satisfied . if it is not the loop is terminated.
+[*] it can have more than one condition . However , the loop will iterate until the last condtion becomes false. other conditions will be treated as statements.
+[*] it is optional
+[*] Expression 2 can perform the task of expression 1 and expression 3. that is , we can intalize the variables as well as update the loop 
+    variable in expression 2 itself.
+[*] We can pass zero or non-zero value in expression 2.However , in c, any non-zero value is true, and zero
+    is false by default.
+ 
+#properties of expression 3:
+[*] Expression 3 is used to update the loop variable.
+[*] we can update more than one variable at the same time.
+[*] expression 3 is optional.
+
+
+
+
+

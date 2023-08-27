@@ -1,0 +1,38 @@
+#What is format specifiers?
+[*] Format specifiers is a way to tell the complier what type of data is in variable during taking input displaying
+   output to the user 
+[*]printf("This is good boy %a.bf",var);will print var with b decimal place point a 'a' character space.
+[*] %c to print character 
+[*] %d to print integer
+[*] %f to print flaot 
+[*] %l to print long 
+[*] %lf to print double 
+[*] %Lf to print long double 
+
+
+#Constants in c
+[*] A constants is value or variable that can't be changed in the program 
+[*] There are two ways to define constants in c programming 
+    [*] const keyword
+    [*] #define preprocessor
+
+#Espace squence in c
+[*] An escape squence in C programming language is a squence of characters 
+[*] it dosen't repersent itself when used inside string literal or character 
+[*] it is composed of two or more characters starting with backlash \.For example: \n repersents new line.
+
+#  escape sequence       #meaning 
+[*] \a                   Alarm or Beep
+[*] \b                   Backspace 
+[*] \f                   form feed
+[*] \n                   New line 
+[*] \r                   Carriage Return 
+[*] \t                   Tab(Horizontal)
+[*] \v                   Tab(Vertical)
+[*] \\                   Backslash
+[*] \'                   Single quote
+[*] \"                   Double quote 
+[*] \?                   Question mark
+[*] \nnn                 Octal number 
+[*] \xhh                 hexadecimal number 
+[*] \0                   Null

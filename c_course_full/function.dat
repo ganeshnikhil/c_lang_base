@@ -1,0 +1,34 @@
+#what is function?
+[*] functions are used to divide a larger program into smaller peices.
+[*] A function can be called multiple time to provide resusability to the c program 
+[*] Also called to procedure or subroutine
+
+#The basic syntax of c function is written as follows:
+[*] return_type function_name(data_type parameter1,data_type parameter2 ....){
+   //cdoe to be excuted
+}
+
+[*] we can avoid rewriting same logic through functions
+[*] we can divide work among programmers using function
+[*] we can easliy debug a program using functions
+
+#Decleration, definition and call
+[*] A function is declared to tell a compiler about its existence
+[*] A function is defiend to get some task done
+[*] A function is called in order to be used
+
+
+#Types of fuctions.
+[*]library functions - functions included in c header files
+[*] user defined functions - Functions created by c programmer to reduce complexity of a program 
+
+
+#function code example .
+[*] without arguments and without return value
+[*] without arguments and with return value
+[*] with arguments adn without return value
+[*] with arguments and with return value
+
+
+
+

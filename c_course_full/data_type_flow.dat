@@ -1,0 +1,49 @@
+#how c program flow?
+
+[*]preprocessing --> compilation --> assembly --> linking -->loading
+
+#what is varibale?
+[*]A name to memory location 
+[*]Declare by writing type varibale_name
+[*]intialize and declare by type varibale_name=value;
+
+
+#Rules for defining varible in c?
+[*] Can contain alphabets,digits,and underscore(_).
+[*]A variable name can start with an alphabet and underscore only.
+[*]Can't start with a digit.
+[*]No whitespace & reserved keywords is allowed.
+[*]Valid variable names:int nikhl, float nikhil123 , char _nikhil34.
+[*]Invalid variable name:$nikhil , int 77nikhil, char long;
+
+#Data types in C?
+[*]Basic Data Type:int , char , float , double.
+[*]Derived Data Type:array , pointer , structure , union.
+[*]Enumeration Data Type:enum 
+[*]Void Data Type:void
+
+#Data types:Size(32-BIT ARCHITECTURE)
+[*]1 byte= 8-bit 
+data types        Memory size       Range
+[*]char               1 byte        -128 to 127
+[*]signed char        1 byte        -128 to 127 
+[*]unsigned char      1 byte        0 to 255
+[*]short              2 byte        -32,768 to 32,767
+[*]signed short       2 byte        -32,768 to 32,767 
+[*]unsigned short     2 byte        0 to 65,535
+[*]int                2 byte        -32,768 to 32,767
+[*]signed int         2 byte        -32,768 to 32,767 
+[*]unsigned int       2 byte        0 to 65,535
+[*]short int          2 byte        -32,768 to 32,767
+[*]signed short int   2 byte        -32,768 to 32,767
+[*]unsinged short int 2 byte        0 to 65,535
+[*]long int           4 byte        -2,147,483,648 to 2,147,483,647
+[*]singed long int    4 byte        -2,147,483,648 t0 -2,147,483,647
+[*]unsigned long int  4 byte        0 to 4,294,967,295 
+[*]float              4 byte        
+[*]double             8 byte 
+[*]long double        10 byte
+
+
+
+
